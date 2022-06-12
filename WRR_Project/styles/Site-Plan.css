@@ -24,8 +24,16 @@
   --nav-hover-background-color: #396E94;
 }
 
+.center {
+  text-align: center;
+}
 
-
+.right{
+  text-align: right;
+}
+.bold {
+  font-weight: bold;
+}
 
 body {
   max-width: 960px;
