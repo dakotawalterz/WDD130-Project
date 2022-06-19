@@ -1,332 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+<!DOCTYPE html>
+<html>
 
-h2, h1 {
-  background-color: #0892A5;
-  font-family: Roboto, Helvetica, sans-serif;
-  line-height: 2em;
-  margin-bottom: -30px;
-  padding: .5em;
-  border-top: 5px ridge gray;
-  border-bottom: 5px ridge black;
-  text-align: center;
-  font-size: 2em
-  
-  
-  
-}
-.home-paragraph-1, .home-paragraph-2, .bottom-paragraph-in-body {
-  
-  margin-bottom: 0.75em;
-  margin-left: 20px;
-  margin-right: 20px;
-  line-height: 1.3em;
-  font-size: 1.5em
-}
-.content {
-  width: 960px;
-  /*margin: 0 auto;*/
-}
-#third-paragraph {
-  text-align: center;
-}
-body {
-  background-color: gray;
-  font-family: Helvetica, sans-serif;
-}
-nav a {
-  color: white;
-  font-family: Helvetica, sans-serif;
-}
-nav {
-  color: white;
-  font-size: 1.1em;
-}
-main {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Main-sections-of-home-page {
-  padding: 2em;
-}
-.banner-box img {
-  width: 100%;
-}
-.home-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 1em;
-}
-
-
-.contact-grid {
-  display: grid;
-  grid-template-columns: 50px 120px 100px 200px 220px 50px;
-  grid-template-rows: 100px 200px 50px 50px 200px;
-}
-.contact {
-  grid-column: 1/8;
-  grid-row: 1/2;
-  margin-bottom: 30px;
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-left: 10px;
-  padding-top: 5px 
-}
-.office-hours {
-  grid-column: 2/4;
-  grid-row: 2/3;
-  justify-self: center;
-  margin-top: 5px;
-}
-.days {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-bottom: 100px;
-  align-self: center;
-  border: 2px black solid;
-}
-.hours {
-  grid-column: 3/4;
-  grid-row: 2/3;
-  max-width: 100%;
-  max-height: 100%;
-  margin-bottom: 100px;
-  align-self: center;
-  border: 2px black solid;
-  
-}
-.numbers {
-  grid-column: 4/7;
-  grid-row: 2/3;
-  max-width: 100%;
-  max-height: 100%;
-  align-self: center;
-  justify-self: center;
-  border: 2px solid black;
-  padding: 7px;
-}
-.check-it-out {
-  grid-column: 1/8;
-  grid-row: 3/4;
-  align-items: center;
-  padding: 20px;
-  align-self: center;
-  justify-self: center;
-  border-bottom: 5px solid black;
-  
-}
-.instagram-link {
-  grid-column: 2/4;
-  grid-row: 4/5;
-}
-.youtube-link {
-  grid-column: 5/6;
-  grid-row: 4/5;
-}
-.fat-youtube {
-  grid-column: 2/4;
-  grid-row: 5/6;
-  justify-self: center
-}
-.fat-instagram {
-  grid-column: 5/6;
-  grid-row: 5/6;
-  justify-self: center;
-}
-.at-sign {
-  grid-column: 4/5;
-  grid-row: 5/6;
-  align-self: center;
-  justify-self: center;
-  margin-top: -20px;
-}
-
-.home-right-image, .home-left-image {
-  margin: 20px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  box-shadow: 5px 5px 5px #999;
-}
-.bottom-paragraph-in-body {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.home-headline-1 {
-  grid-column: 1/4;
-  grid-row: 1/2;
-  margin: 20px
-}
-.home-headline-2 {
-  grid-column: 3/6;
-  grid-row: 4/5;
-  margin: 20px;
-  margin-left: 40px;
-}
-.home-headline-3 {
-  grid-column: 1/7;
-  grid-row: 7;
-  margin: 20px;
-  align-items: center;
-}
-.home-paragraph-1 {
-  grid-column: 2/4;
-  grid-row: 2/4;
-}
-.home-paragraph-2 {
-  grid-column: 4/6;
-  grid-row: 5/7;
-}
-.bottom-paragraph-in-body {
-  grid-column: 1/7;
-  grid-row: 7/9;
-}
-.home-left-image {
-  grid-column: 1/3;
-  grid-row: 4/6;
-  max-width: 100%
-}
-.home-right-image {
-  grid-column:4/6;
-  grid-row: 1/3;
-  max-width: 85%;
-}
-header {
-  display: grid;
-  grid-template-columns: 110px auto;
-  align-items: center;
-}
-nav ul {
-  display: grid;
-  list-style: none;
-  grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
-  margin: 0;
-}
-.logo-box {
-  border: 2px solid black;
-  background-color: black;
-  margin: auto;
-  margin-bottom: auto;
-}
-nav a:hover {
-  background-color: green;
-}
-footer {
-  height: 55px;
-  
-}
-
-.youtube {
-  float: right;
-  align-items: center;
-  width: 40px;
-  background-color: green;
-  margin-top: -30px;
-}
-footer p {
-  align-items: center;
-  margin-top: 30px;
-}
-.instagram {
-  float: right;
-  margin-right: 5px;
-  width: 40px;
-  align-items: center;
-  margin-top: -30px;
-}
-
-
-
-
-.info-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-template-rows: 90px 30px 70px 80px 150px 35px 100px;
-  column-gap: 10px;
-  row-gap: 10px;
-}
-.information {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  margin-top: -5px;
-  margin-bottom: 10px;
-  max-width: 100%;
-}
-.prices-text {
-  grid-column: 1/2;
-  grid-row: 2/3;
-  margin-left: 20px;
-  justify-self: center;
-  margin-right: 70px;
-  font-size: 20px;
-  align-self: center;
-  margin-bottom: 10px;
-}
-.ages {
-  grid-column: 1/2;
-  grid-row: 3/4;
-  margin-left: 20px;
-}
-.price-per-age {
-  grid-column: 1/2;
-  grid-row: 3/4;
-  margin-left: 180px;
-}
-.duration {
-  grid-column: 1/2;
-  margin-left: 20px;
-  justify-self: center;
-}
-.happy-camper {
-  grid-column: 1/2;
-  margin-left: 20px;
-  justify-self: center;
-}
-.reviews {
-  grid-column: 1/2;
-  margin-left: 20px;
-  justify-self: center;
-}
-.stars {
-  grid-column: 1/2;
-  margin-left: 20px;
-  justify-self: center;
-}
-.start {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  margin-right: 20px;
-  justify-self: center;
-}
-.rexburg-map {
-  grid-column: 2/3;
-  margin-right: 20px;
-  justify-self: center;
-  grid-row: 3;
-  margin-top: 15px;
-}
-.end {
-  grid-column: 2/3;
-  margin-right: 20px;
-  grid-row: 7;
-  align-self: center;
-  justify-self: center;
-}
-.rigby-map {
-  grid-column: 2/3;
-  margin-right: 20px;
-  justify-self: center;
-  margin-top: -30px;
-  margin-bottom: 30px;
-}
-.availability {
-  grid-column: 1/2;
-  margin-left: 20px;
-  margin-top: -270px
-}
-.box {
-  grid-column: 1/2;
-  margin-left: 20px;
-  margin-top: -240px
-}
+<head>
+    <title>White water rafting stuff!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/styledw.css">
+</head>
+<body>
+  <header>
+    <div class="logo-box">
+      <img alt="website logo" class="logo" width="100" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2Fwhite%20water%20laughing%20logo.png?v=1620150138216">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="info.html">Information</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="site-plan.html">Site Plan</a></li>
+        <li><a href="resources.html">Resources</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="info-grid">
+      <h2 class="information">Information</h2>
+      <h4 class="prices-text">Prices:</h4>
+      <p class="ages">Ages 5-11 <br> Ages 11-18 <br> Ages 18+</p>
+      <p class="price-per-age">$15 <br> $20 <br> $25</p>
+      <h4 class="duration">Our tours last 80-90 minutes on average. <br> Guests should expect to get wet.</h4>
+      <img class="happy-camper" width="250" alt="Happy Camper" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2F334233f9-6823-4d85-8e9b-013ad5500113.image.png?v=1623715308986">
+      <h4 class="reviews">Over 100 1 star reviews!</h4>
+      <img class="stars" alt="Picture of 1 Star" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2F6fdab112-a11e-4c24-a0c6-44568f04624a.image.png?v=1624330686969" width="200">
+      <p class="start">Our tours start at our Rexburg office, located in downtown Rexburg.</p>
+      <img class="rexburg-map" alt="map of Rexburg" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2Fdb02d11d-1c46-41d2-8ea9-a85274470226.image.png?v=1624330373903" width="400">
+      <p class="end">Tours end in Rigby.</p>
+      <img class="rigby-map" alt="map of Rigby" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2Ffa95de1d-24be-49b8-a297-67e5b62aa765.image.png?v=1624330553654" width="400">
+      <p class="availability">Check Availability:</p>
+      <img class="box" alt="Input Box" width="300" src="https://cdn.glitch.com/a7243cf1-2c0f-46af-bcc4-43e4c6e54877%2Finput%20box.PNG?v=1624330915754">
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2021 Dry Oar - Damian Wilding - WDD130</p>
+    <div class="social">
+      <a href="https://www.youtube.com/watch?v=jMtG9SyZfAc"><img alt="youtube logo"  class="youtube" src="https://cdn.shopify.com/s/files/1/1434/2870/products/logo-youtube-neon-led-social-media-mk-neon_1024x1024.jpg?v=1599389740"></a>
+      <a href="https://www.instagram.com/downbadpatrol/"><img alt="instagram logo" class="instagram" src="data:image/png;base64,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"></a>
+      <a href="https://twitter.com/DudespostingWs"><img alt="twitter logo" width="50" src="https://www.eyeandlaser.net/wp-content/uploads/2020/09/twitter-logo-300x300.png"> </a>
+    </div>
+  </footer>
+</body>
+</html>
