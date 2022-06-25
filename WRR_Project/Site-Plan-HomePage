@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whitewater Rafting Vacations / The White Waters / Home</title>
+    <link rel="stylesheet" href="./styles/personalstyle.css">
+<body>
+ <header>
+     <a id="logo_link" href="index.html">
+          <img class="logo" src="images/ffaba92cbd9ce224f5af2c8739e048c3.webp" alt="The White Waters Logo">
+     </a>
+     <nav>
+        <a href="./Site_Home_Page.html">Home</a>
+        <a href="./Site_Subpage_Rafting.html">Information</a>
+        <a href="./Site_Plan_Rafting.html">Site Plan</a>
+        <a href="./contactus.html">Contact Us</a>
+     </nav>
+</header>
