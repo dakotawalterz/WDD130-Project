@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Raleway&display=swap');
 #background {
     height: 725px;
     grid-column: 1/11;
@@ -23,7 +23,7 @@ nav a:hover {
           
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #ffffff;
 }    
 .icon {
     width: 80px;
@@ -31,7 +31,7 @@ nav a:hover {
 }
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #5a5a5a;
     text-decoration: none;
 }   
 
@@ -41,7 +41,8 @@ nav a {
     font-display: 'Bradley Hand';
     font-style: italic;
     text-align: center;
-    color: burlywood;
+    color: rgb(139, 5, 0);
+    text-decoration-color: white;
     
 }
 .h44 { text-align: center;
@@ -173,7 +174,7 @@ grid-row: 5/8;
 }
 
 footer {
-    background-color: #8b1d1d;
+    background-color: #700f0f;
     padding: 25px 50px;
     margin-top: 200px; 
     display: flex;
