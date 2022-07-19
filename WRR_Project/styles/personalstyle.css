@@ -36,9 +36,9 @@ nav a {
 }   
 
 .home-title {
-    font-family: 'Bradley Hand', sans-serif;
+    font-family: 'Kdam Thmor', 'Pro & Family';
     font-size: 2em;
-    font-display: 'Bradley Hand';
+    font-display: 'Kdam';
     font-style: italic;
     text-align: center;
     color: rgb(139, 5, 0);
@@ -330,4 +330,46 @@ form {
 }
 .moveDown {
     margin-top: 3em;
+}
+
+
+.images {
+    max-width: 300px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    outline-color: #700f0f;
+}
+.imagesz {
+    max-width: 300px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    outline-color: #700f0f;
+    padding-left: auto;
+}
+.imageszz {
+    max-width: 300px;
+    max-height: 500px;
+    height: 100%;
+    width: 100%;
+    outline-color: #700f0f;
+    padding-right: 1600px;
+}
+.imageszzz {   max-width: 250px;
+    max-height: 250px;
+    height: 100%;
+    width: 100%;
+    
+
+}
+.hero-img{
+    max-width: 2000px;
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+.white {
+    
+    color: #ffffff;
 }
